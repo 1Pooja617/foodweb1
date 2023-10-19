@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="food.css">
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"  rel="stylesheet">
+   <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div class="container">
+       <nav>
+           <div class="logo">
+               <h1>Home Meal</h1>
+           </div>
+           <ul>
+               <a  href="">Home</a>
+               <a id="foods" href="#food">Features</a>
+               <a id="dishs" href="#dish">Products</a>
+               <a id="orders" href="#order">Best Dishes</a>
+               <button id="logBtn">Log In</button>
+
+           </ul>
+       </nav>
+
+       <!-- login -->
+       <div class="loginPage">
+           <input type="text" placeholder="Enter Email" id="name">
+           <input type="password" placeholder="Enter password" id="pass">
+           <button id="logedBtn">Log In</button>
+
+       </div>
+
+       <!-- main -->
+       <div class="main">
+           <div class="mainText">
+               <h1>Experience the taste of home and <br><span class="ps" >Say Goodbye to fast food </span></h1>
+               <h2>Upto 20% OFF</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore placeat <br>
+                   expedita voluptatibus nam consequuntur provident corporis.</p>
+               <button>Order Now</button>
+           </div>
+           <img class="img" src="1.jpg" alt="">
+       </div>
+       <section id="services-container">
+        <h1 class="h-primary center">Our <span class="sd">Features</span></h1>
+        <div id="services">
+            <div class="box">
+                <img src="33.jpeg">
+                <h2 class="h-secondary center">Fresh and Organic </h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sapiente?</p>
+                    <button class="btn">Read More</button>
+            </div>
+            <div class="box">
+                <img src="11.jpeg" alt="">
+                <h2 class="h-secondary center">Easy Payment</h2>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Tell us</p>
+                    <button class="btn1">Read More</button>
+            </div>
+             <div class="box">
+                <img src="22.jpeg" alt="">
+                <h2 class="h-secondary center">Fast Delivery</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, magnam.</p>
+                    <button class="btn2">Read More</button>
+            </div>
+        </div>
+      
+
+       <!-- cards -->
+
+       <div class="foodcard" id="food">
+         <div class="head">
+           <h1>Our <span>Products</span></h1>
+         </div>
+           <div class="card">
+               <div class="crd">
+                   <img src="https://media.istockphoto.com/id/901566112/photo/chole-bhature-indian-dish.jpg?s=1024x1024&w=is&k=20&c=psJxSzWkcHxKhYNLEzRNEmHtLPnzm_vTPGFjKXz05Cg=" alt="">
+                   <div class="foodText">
+                       <h2>Chole Bhature</h2>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                       <button>Order Now</button>
+                   </div>
+               </div>
+               <div class="crd">
+                   <img src="https://media.istockphoto.com/id/1446910807/photo/hand-made-roti-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=yIaObtXHLDkAepb9qcK1Mfl3ob4manOH-2yfu8BDyRM=" alt="">
+                   <div class="foodText">
+                       <h2>Paratha</h2>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                       <button>Order Now</button>
+                   </div>
+               </div>
+               <div class="crd">
+                   <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=1971&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                   <div class="foodText">
+                       <h2>Sabji</h2>
+                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                       <button>Order Now</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="card" id="card2">
+           <div class="crd">
+               <img src="https://media.istockphoto.com/id/1194259254/photo/womans-hands-holding-a-bowl-with-fresh-fruit-while-standing-at-home.jpg?s=2048x2048&w=is&k=20&c=3BDa4_GJDC8I6szHjMDvjlBQlRyCCs3bE3mImPQfjkw=" alt="">
+               <div class="foodText">
+                   <h2>Fruits</h2>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                   <button>Order Now</button>
+               </div>
+           </div>
+           <div class="crd">
+               <img src="https://media.istockphoto.com/id/175566629/photo/vermicelli-semiya-kheer-payasam.jpg?s=1024x1024&w=is&k=20&c=nWFk_78OyUMLg2W7TDy3VAVvv8SZagMKQgwGbJeItNk=" alt="">
+               <div class="foodText">
+                   <h2>Kheer</h2>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                   <button>Order Now</button>
+               </div>
+           </div>
+           <div class="crd">
+               <img src="https://images.unsplash.com/photo-1631788012420-a0d6a3cfcdfb?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+               <div class="foodText">
+                   <h2>Pakode</h2>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                   <button>Order Now</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- best dish -->
+
+   <div class="dish" id="dish">
+       <div class="head">
+           <h1>Our Best <span>Dishe's</span></h1>
+       </div>
+       <div class="best">
+           <img src="https://media.istockphoto.com/id/1341862692/photo/shahi-paneer-or-paneer-kadai.jpg?s=1024x1024&w=is&k=20&c=8dz64oBPcvUPb5L35VreRObiTkz6L7hj0VVzSN6liKk=" alt="">
+           <div class="bestText">
+               <h2>Best Dishes Ever</h2>
+               <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+               <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+           </div>
+       </div>
+
+       <div class="best">
+           <img src="https://images.unsplash.com/photo-1517244683847-7456b63c5969?auto=format&fit=crop&q=80&w=1888&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+           <div class="bestText">
+               <h2>Best Dishes Ever</h2>
+               <img src="https://media.istockphoto.com/id/1614414529/photo/gujarati-traditional-sorghum-ki-roti-or-pearl-millet-flat-bread-farmers-lunch-or-common-items.jpg?s=1024x1024&w=is&k=20&c=aU1-joLfeLTTSye6PasNsMvJahFnlPlC15ETQg7klmA=" alt="">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, obcaecati laborum.</p>
+               <a href="https://www.chefspencil.com/best-30-food-blogs-in-2020/">Explore Foods</a>
+           </div>
+       </div>
+   </div>
+
+   <!-- footer -->
+
+   <div class="footer">
+       <div class="text">
+           <h2>About Us</h2>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br>
+               elit. Quos nihil aliquam fuga ex obcaecati rerum <br>
+               in sunt ducimus dolorum, officiis odit atque!</p>
+       </div>
+       <div class="text">
+           <h2>Our Foods</h2>
+           <p>Quality</p>
+           <p>price</p>
+           <p>service</p>
+           <p>Quality</p>
+
+       </div>
+       <div class="text">
+           <h2>Customer</h2>
+           <p>Service</p>
+           <p>Relation</p>
+           <p>quality</p>
+           <p>price</p>
+           <p>more</p>
+
+       </div>
+       <div class="text">
+           <h2>Contact Us</h2>
+           <p>A-33 Block</p>
+           <p>Kudlu Gate</p>
+           <p>service Road</p>
+           <p>0222-04444</p>
+          
+
+       </div>
+   </div>
+    </div>
+   <!-- <script src="Food.js"></script> -->
+</body>
+</html>
